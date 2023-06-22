@@ -1,0 +1,18 @@
+reviewers:
+  # Default reviewer(s)
+  defaults:
+    - mattn02 # GitHub username
+
+  # Reviewers per PR author.
+  # Keys are reviewees, each of which has an array of reviewers.
+  per_author:
+    mattn02:
+      - testmattn02
+      - avi-cramer
+    testmattn02:
+      - mattn02
+
+options:
+  ignore_draft: true
+  ignored_keywords:
+    - DO NOT REVIEW
