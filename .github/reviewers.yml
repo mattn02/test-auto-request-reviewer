@@ -9,8 +9,6 @@ reviewers:
     mattn02:
       - testmattn02
       - avi-cramer
-    testmattn02:
-      - mattn02
 
 options:
   ignore_draft: true
